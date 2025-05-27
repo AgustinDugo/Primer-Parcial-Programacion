@@ -83,13 +83,12 @@ comprensible y legible. Se recomienda utilizar f-string.
 
 opcion = menu()
 pacientes = []
-
 while opcion != 9:
     match opcion:
         case 1:
+            
             pacientes = definir_matriz()
             cargar_matriz(pacientes)
-
         case 2:
             if es_matriz_vacia(pacientes) == True:
                 print("No hay pacientes para mostrar")
