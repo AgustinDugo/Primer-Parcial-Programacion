@@ -82,11 +82,7 @@ comprensible y legible. Se recomienda utilizar f-string.
 """
 
 opcion = menu()
-pacientes = [
-    [111, "Juan", 11, "Diagnostico 1", 1],
-    [222, "Juan", 22, "Diagnostico 1", 6],
-    [333, "Juan", 33, "Diagnostico 1", 3]
-]
+pacientes = []
 
 while opcion != 9:
     match opcion:
